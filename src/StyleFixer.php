@@ -1,8 +1,8 @@
 <?php
 
-namespace PHPExcel\StyleFixer;
+namespace PHPExcelFixer\StyleFixer;
 
-use PHPExcel\StyleFixer\Plugin\Plugin;
+use PHPExcelFixer\StyleFixer\Plugin\Plugin;
 
 /**
  * Class StyleFixer

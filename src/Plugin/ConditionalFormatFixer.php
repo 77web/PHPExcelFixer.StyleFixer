@@ -1,9 +1,9 @@
 <?php
 
-namespace PHPExcel\StyleFixer\Plugin;
+namespace PHPExcelFixer\StyleFixer\Plugin;
 
-use PHPExcel\StyleFixer\Util\Book as BookUtil;
-use PHPExcel\StyleFixer\Util\XmlNamespace;
+use PHPExcelFixer\StyleFixer\Util\Book as BookUtil;
+use PHPExcelFixer\StyleFixer\Util\XmlNamespace;
 
 /**
  * Class ConditionalFormatFixer
@@ -12,7 +12,7 @@ use PHPExcel\StyleFixer\Util\XmlNamespace;
 class ConditionalFormatFixer implements Plugin
 {
     /**
-     * @var \PHPExcel\StyleFixer\Util\Book
+     * @var \PHPExcelFixer\StyleFixer\Util\Book
      */
     private $bookUtil;
 

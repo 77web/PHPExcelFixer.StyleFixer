@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PHPExcel\StyleFixer\Util;
+namespace PHPExcelFixer\StyleFixer\Util;
 
 class BookTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PHPExcel\StyleFixer\Plugin;
+namespace PHPExcelFixer\StyleFixer\Plugin;
 
 
 abstract class BasePluginTest extends \PHPUnit_Framework_TestCase
@@ -30,7 +30,7 @@ abstract class BasePluginTest extends \PHPUnit_Framework_TestCase
      */
     protected function createBookUtil($count, $map)
     {
-        $bookUtil = $this->getMock('PHPExcel\StyleFixer\Util\Book');
+        $bookUtil = $this->getMock('PHPExcelFixer\StyleFixer\Util\Book');
         $bookUtil
             ->expects($this->exactly($count))
             ->method('makeSheetMap')

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PHPExcel\StyleFixer;
+namespace PHPExcelFixer\StyleFixer;
 
 
 class StyleFixerTest extends \PHPUnit_Framework_TestCase
@@ -37,7 +37,7 @@ class StyleFixerTest extends \PHPUnit_Framework_TestCase
             $templatePath => $template,
         ];
 
-        $fixer = $this->getMockBuilder('PHPExcel\StyleFixer\StyleFixer')
+        $fixer = $this->getMockBuilder('PHPExcelFixer\StyleFixer\StyleFixer')
             ->setMethods(['openFile'])
             ->getMock()
         ;
@@ -86,9 +86,9 @@ class StyleFixerTest extends \PHPUnit_Framework_TestCase
             $outputPath => $output,
             $templatePath => $template,
         ];
-        $plugin = $this->getMockForAbstractClass('PHPExcel\StyleFixer\Plugin\Plugin');
+        $plugin = $this->getMockForAbstractClass('PHPExcelFixer\StyleFixer\Plugin\Plugin');
 
-        $fixer = $this->getMockBuilder('PHPExcel\StyleFixer\StyleFixer')
+        $fixer = $this->getMockBuilder('PHPExcelFixer\StyleFixer\StyleFixer')
             ->setMethods(['openFile'])
             ->setConstructorArgs([[$plugin]])
             ->getMock()

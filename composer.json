@@ -1,18 +1,17 @@
 {
-    "name": "phpexcel/stylefixer",
+    "name": "phpexcel-fixer/style-fixer",
     "description":" ",
     "keywords":[
     ],
     "license": "BSD-3-Clause",
     "autoload":{
         "psr-4":{
-            "PHPExcel\\StyleFixer\\": "src/"
+            "PHPExcelFixer\\StyleFixer\\": "src/"
         }
     },
     "autoload-dev":{
         "psr-4":{
-            "PHPExcel\\StyleFixer\\": "tests/",
-            "PHPExcel\\StyleFixer\\": "tests/Fake"
+            "PHPExcelFixer\\StyleFixer\\": "tests/"
         }
     },
     "minimum-stability": "dev",

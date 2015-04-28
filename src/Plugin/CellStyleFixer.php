@@ -1,22 +1,22 @@
 <?php
 
 
-namespace PHPExcel\StyleFixer\Plugin;
+namespace PHPExcelFixer\StyleFixer\Plugin;
 
 
-use PHPExcel\StyleFixer\Util\Book as BookUtil;
-use PHPExcel\StyleFixer\Util\Sheet as SheetUtil;
-use PHPExcel\StyleFixer\Util\XmlNamespace;
+use PHPExcelFixer\StyleFixer\Util\Book as BookUtil;
+use PHPExcelFixer\StyleFixer\Util\Sheet as SheetUtil;
+use PHPExcelFixer\StyleFixer\Util\XmlNamespace;
 
 class CellStyleFixer implements Plugin
 {
     /**
-     * @var \PHPExcel\StyleFixer\Util\Book
+     * @var \PHPExcelFixer\StyleFixer\Util\Book
      */
     private $bookUtil;
 
     /**
-     * @var \PHPExcel\StyleFixer\Util\Sheet
+     * @var \PHPExcelFixer\StyleFixer\Util\Sheet
      */
     private $sheetUtil;
 

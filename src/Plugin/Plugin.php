@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PHPExcel\StyleFixer\Plugin;
+namespace PHPExcelFixer\StyleFixer\Plugin;
 
 
 interface Plugin

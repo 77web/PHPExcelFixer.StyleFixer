@@ -1,9 +1,9 @@
 <?php
 
 
-namespace PHPExcel\StyleFixer\Plugin;
+namespace PHPExcelFixer\StyleFixer\Plugin;
 
-use PHPExcel\StyleFixer\Util\Sheet;
+use PHPExcelFixer\StyleFixer\Util\Sheet;
 
 class CellStyleFixerTest extends BasePluginTest
 {

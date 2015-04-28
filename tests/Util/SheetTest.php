@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PHPExcel\StyleFixer\Util;
+namespace PHPExcelFixer\StyleFixer\Util;
 
 
 class SheetTest extends \PHPUnit_Framework_TestCase
