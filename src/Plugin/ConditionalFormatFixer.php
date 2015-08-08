@@ -16,9 +16,9 @@ class ConditionalFormatFixer implements Plugin
      */
     private $bookUtil;
 
-    public function __construct(BookUtil $bookUtil)
+    public function __construct(BookUtil $bookUtil = null)
     {
-        $this->bookUtil = $bookUtil;
+        $this->bookUtil = $bookUtil ? $bookUtil : new BookUtil;
     }
 
     /**

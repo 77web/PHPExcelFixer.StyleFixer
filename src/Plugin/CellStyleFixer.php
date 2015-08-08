@@ -24,10 +24,10 @@ class CellStyleFixer implements Plugin
      * @param BookUtil $bookUtil
      * @param SheetUtil $sheetUtil
      */
-    public function __construct(BookUtil $bookUtil, SheetUtil $sheetUtil)
+    public function __construct(BookUtil $bookUtil = null, SheetUtil $sheetUtil = null)
     {
-        $this->bookUtil = $bookUtil;
-        $this->sheetUtil = $sheetUtil;
+        $this->bookUtil = $bookUtil ? $bookUtil : new BookUtil;
+        $this->sheetUtil = $sheetUtil ? $sheetUtil : new SheetUtil;
     }
 
     /**
